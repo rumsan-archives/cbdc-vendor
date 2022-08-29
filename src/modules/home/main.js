@@ -370,7 +370,7 @@ export default function Main() {
 								</div>
 							</button>
 						</li>
-						<li>
+						{/* <li>
 							<button onClick={e => togglePackageModal(e)} className="item border-0 bg-transparent ">
 								<div className="icon-box bg-primary">
 									<FiPackage className="ion-icon" />
@@ -383,7 +383,7 @@ export default function Main() {
 									</div>
 								</div>
 							</button>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 			</ActionSheet>
