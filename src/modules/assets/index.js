@@ -6,16 +6,16 @@ import AppHeader from '../layouts/AppHeader';
 
 export default function Asset() {
 	const { hasWallet, wallet, tokenBalance } = useContext(AppContext);
-	const [nfts, setNfts] = useState(null);
+	// const [nfts, setNfts] = useState(null);
 
-	useEffect(() => {
-		async function listNfts() {
-			const nftList = await DataService.listNft();
-			setNfts(nftList || []);
-		}
+	// useEffect(() => {
+	// 	async function listNfts() {
+	// 		const nftList = await DataService.listNft();
+	// 		setNfts(nftList || []);
+	// 	}
 
-		listNfts();
-	}, []);
+	// 	listNfts();
+	// }, []);
 
 	return (
 		<>
@@ -35,7 +35,7 @@ export default function Asset() {
 					</div>
 				</div>
 
-				<div className="section mt-2">
+				{/* <div className="section mt-2">
 					<div className="card">
 						<div
 							className="section-heading"
@@ -75,7 +75,7 @@ export default function Asset() {
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
 				<div className="text-center mt-4">
 					{hasWallet && !wallet && <strong>Tap on lock icon to unlock</strong>}

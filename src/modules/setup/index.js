@@ -43,16 +43,17 @@ export default function Main() {
 		<>
 			<div className="item p-2">
 				<div className="text-center p-3 mb-3">
-					<img src="/assets/img/brand/logo-512.png" alt="alt" width="200" />
+					<img src="/assets/img/brand/g20-logo.png" alt="alt" width="200" />
 				</div>
-				<h2>राहत अधिकृत पसल</h2>
+				<h2>PAMS authorized vendor</h2>
 				<p>
-					राहत कार्यक्रममा भाग लिनु भएकोमा धन्यवाद। कोरोना भाइरसको निषेधाज्ञाबाट पिडितहरुलाई राहतको धेरै खाँचो
-					छ। देश विदेशका दाताबाट राहत बाडिएको छ। उहाँहरुको सहयोग खेरा नजान यो सिस्टम बनाइएको हो। यो आधुनिक
-					सिस्टमबाट राहत बाड्न सहज र पारदर्सी हुन्छ। हजुर बिक्रेताको लागि भनेर यो छुटै App बनाइएको हो। यो App
-					को माध्यमबाट तपाइले राहत लिनेसंग पैसा लिन सक्नुहुने छ।
+					Thank you for participating in distributing allowance to the beneficiaries. blockchain-based public
+					allowance program management system (PAMS) for local government agencies to disburse and transact
+					retail CBDC (r/CBDC) to the unbanked using low-tech devices. This application will create a
+					transparent, efficient, and cheaper way to distribute and track cash and mobilize the local
+					community encouraging financial resilience and freedom.
 				</p>
-				<p>आउनुहोस तपाईंलाई Register गरौ। तपाईंको Google Login गर्नुहोस। </p>
+				<p>Register yourself as PAMS authorized vendor.</p>
 
 				<PasscodeModal
 					showModal={showModal}
